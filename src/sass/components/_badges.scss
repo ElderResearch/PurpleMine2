@@ -44,11 +44,11 @@ tr.group .count,
 }
 
 .badge-status-locked {
-  border-color: $gray-600;
-  color: $gray-600;
+  border-color: $gray-700;
+  color: $gray-700;
 }
 
 .badge-status-closed {
-  border-color: $green;
-  color: $green;
+  border-color: $red;
+  color: $red;
 }
