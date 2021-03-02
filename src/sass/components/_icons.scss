@@ -129,6 +129,9 @@ $icon-map: (
   icon-vcard:                   $fa-var-vcard,
   banner-icon-edit:             $fa-var-edit,
   banner-icon-off:              $fa-var-times,
+
+  // Custom icons
+  icon-map-marker:              $fa-var-map-marker
 );
 
 @keyframes spin {
@@ -483,7 +486,7 @@ div.projects h3 {
   }
 }
 
-h3.version::before      { content: $fa-var-cube; }
+h3.version::before      { content: $fa-var-gear; }
 h3.comments::before     { content: $fa-var-comments; }
 div.issues h3::before   { content: $fa-var-ticket; }
 div.members h3::before  { content: $fa-var-users; }
